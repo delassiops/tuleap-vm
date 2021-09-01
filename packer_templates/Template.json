@@ -5,7 +5,7 @@
 "guest_os_type": "",
 "hostname": "",
 "iso_checksum": "",
-"iso_url": "put_files_here/",
+"iso_url": "put_files_here/iso",
 "proxy": "{{env `http_proxy`}}",
 "ssh_password": "{{env `rootpw`}}",
 "ssh_username": "root",
@@ -26,7 +26,7 @@
       "memory": "1024",
       "shutdown_command": "shutdown -P now",
       "ssh_password": "{{ user `ssh_password` }}",
-      "ssh_timeout": "15m",
+      "ssh_timeout": "30m",
       "ssh_username": "{{ user `ssh_username` }}",
       "type": "vmware-iso",
       "vm_name": "{{ user `hostname` }}"

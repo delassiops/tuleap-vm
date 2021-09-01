@@ -1,4 +1,2 @@
 *.iso
-*.zip
 !.gitignore
-!README.md
